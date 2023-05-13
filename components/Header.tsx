@@ -6,10 +6,8 @@ import Button from './Button'
 const Header = () => {
   const { data: session } = useSession()
 
-  console.log(session)
-
   return (
-    <nav className='w-full mb-16'>
+    <nav className='w-full mb-16 flex-shrink-0'>
       <div className='flex justify-between items-center px-5'>
         <h3 className='text-blue-600 font-bold'>Arcadia</h3>
         {session?.user ? (
