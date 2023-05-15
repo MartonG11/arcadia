@@ -1,11 +1,10 @@
-This is a Pinpoint App created for Arcadia.
+### This is a Pinpoint App created for Arcadia.
 
 ## Getting Started
 
-# 1. Create a .env file in the main directory with the properties below:
+### 1. Create a .env file in the main directory with the properties below:
 
 ```bash
-
 NEXTAUTH_SECRET='YOUR SECRET'
 NEXTAUTH_URL='http://localhost:3000'
 
@@ -17,12 +16,12 @@ GOOGLE_CLIENT_SECRET='YOUR CLIENT SECRET'
 
 ```
 
-# 2. Install and Start in development environment:
+### 2. Install and Start in development environment:
 
 ```bash
-npm install
+npm  install
 
-npm run dev
+npm  run  dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
