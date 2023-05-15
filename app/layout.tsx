@@ -1,11 +1,11 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Signika } from 'next/font/google'
 
 import Footer from '@components/Footer'
 import Header from '@components/Header'
 import Provider from '@components/Provider'
 
-const inter = Inter({ subsets: ['latin'] })
+const signika = Signika({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Arcadia',
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode,
 }) {
   return (
-    <html lang="en" className={`${inter.className} h-full antialiased`}>
+    <html lang="en" className={`${signika.className} h-full antialiased`}>
       <body className='flex min-h-screen flex-col'>
         <Provider>
           <Header />
